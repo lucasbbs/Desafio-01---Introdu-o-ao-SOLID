@@ -14,7 +14,7 @@ class TurnUserAdminController {
       });
       return response.status(200).send();
     } catch (error) {
-      return response.status(404).json(error);
+      return response.status(404).json({ error });
     }
   }
 }
