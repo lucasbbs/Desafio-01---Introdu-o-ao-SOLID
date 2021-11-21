@@ -18,5 +18,3 @@ class TurnUserAdminController {
     }
   }
 }
-
-export { TurnUserAdminController };
